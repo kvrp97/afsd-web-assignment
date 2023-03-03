@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    background-color: rgb(237, 237, 237);
+}
+
+.navbar{
+    border-bottom: 5px solid white;
+    display: flex;    
+    width: 100%;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    
+    .company{
+        margin-top: 2px;
+        min-width: 80px;
+        max-width: 80px;    
+        min-height: 30px;
+        max-height: 30px;    
+        border: 3px solid white;
+        margin-left: 25px;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: crimson;
+
+        a{
+            text-decoration: none;
+            color: antiquewhite;
+            font-size: 18px;
+            font-weight: 800;     
+            padding: 5px;  
+            padding-left: 15px; 
+        }
+    }
+
+    div{
+        display: inline-flex;
+    }
+
+    .nav{        
+        margin-left: 50px;
+        margin-right: 0;
+        width: 85%;
+        display: flex;
+
+        ul{            
+            list-style-type: none;  
+            padding: 0;
+
+            li{
+                position: static;
+                display: inline-block;     
+                
+                a{
+                    text-decoration: none;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: rgb(105, 0, 0);                
+                }
+                
+                .nav-item:hover{
+                    color: rgb(0, 0, 0);
+                    text-decoration: underline;
+                }
+            }     
+            
+        }
+
+        .nav1{
+            flex: 5;
+        }
+
+        .nav2{          
+            
+
+            .gopremium{
+                padding-top: 5px;
+                padding-bottom: 6px;        
+                background-color: rgb(255, 213, 150);       
+                border: 3px solid rgb(118, 0, 0);
+                border-radius: 25px;
+                color: rgb(125, 0, 0);
+                font-weight: 800;
+
+                &:hover{
+                    color: white;
+                    background-color: rgb(106, 63, 0);       
+                    border: 3px solid rgb(255, 255, 255);
+                }
+
+            }
+        }
+    }
+
+}
+
+.main{    
+
+    // border: 1px solid black;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    z-index: -1;
+
+    .main-image{
+        img{
+            width: 450px;
+            margin-top: 40px;
+            margin-right: 10px;
+            
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 30px;            
+        }
+    }
+
+    .main-para{
+        padding: 20px;
+    }
+}
+
+.features{    
+    width: 90%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    z-index: -1;
+    padding: 15px;
+
+    .para{ 
+        h3{
+            text-align: center;
+        }       
+        padding-left: 30px;
+        padding-right: 30px;
+        flex: 3;
+        text-align: justify;
+    }
+}
+
+.footer-info{
+    width: 100%;
+    margin-top: 25px;
+    height: 350px;
+    background-color: chocolate;    
+}
+
+.footer-content{
+    position: relative;    
+    display: flex;
+    height: 350px;
+
+    .help{
+        flex-direction: row;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex: 5;
+    }
+
+    .contact{
+        flex-direction: row;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex: 5;
+        border-left: 2px solid black;
+
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            color: rgb(228, 228, 228);
+
+            &:hover{
+                color: rgb(0, 0, 0);
+            }
+        }
+
+        img{
+            width: 25px;
+            position: relative;
+            top: 5px;
+            margin-right: 10px;
+            margin-top: 3px;
+        }
+    }
+}
+
+.footer-end{
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(75, 52, 35);
+
+    .copyright{       
+
+        p{
+            color: rgb(214, 167, 108);
+            text-align: center;
+
+            a{        
+                text-decoration: none;
+                padding-top: 5px;
+                color: beige;
+
+                &:hover{
+                    color: rgb(145, 145, 145);
+                }
+            }
+        }
+    }
+}
