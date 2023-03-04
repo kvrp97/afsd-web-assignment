@@ -10,6 +10,7 @@ body{
     background-color: antiquewhite;
     position: sticky;
     top: 0;
+    z-index: 1;
     
     .company{
         margin-top: 2px;
@@ -106,7 +107,7 @@ body{
     padding-top: 25px;
     padding-bottom: 10px;
     border-bottom: 5px solid rgb(0, 0, 0);
-    z-index: -1;
+    
 
     .main-image{
         img{
@@ -121,6 +122,22 @@ body{
 
     .main-para{
         padding: 20px;
+
+        button{
+            width: 150px;
+            padding: 10px;
+            border: 2px solid rgb(75, 75, 75);
+            border-radius: 6px;
+            font-weight: 700;
+            color: rgb(75, 75, 75);
+            
+            &:hover{
+                color: white;
+                background-color: rgb(106, 63, 0);       
+                border: 3px solid rgb(255, 255, 255);
+            }
+
+        }
     }
 }
 
@@ -128,8 +145,7 @@ body{
     width: 90%;
     position: relative;
     margin: auto;
-    display: flex;
-    z-index: -1;
+    display: flex;    
     padding: 15px;
 
     .para{ 
@@ -140,6 +156,21 @@ body{
         padding-right: 30px;
         flex: 3;
         text-align: justify;
+
+        button{
+            padding: 7px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: 500;
+            width: 80px;
+
+            &:hover{
+                border-color: chocolate;
+                font-weight: 600;
+                color: chocolate;
+            }
+        }
     }
 }
 

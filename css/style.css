@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #ededed;
+  background-color: rgb(237, 237, 237);
 }
 
 .navbar {
@@ -10,6 +10,7 @@ body {
   background-color: antiquewhite;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .navbar .company {
   margin-top: 2px;
@@ -54,10 +55,10 @@ body {
   padding-right: 30px;
   font-size: 16px;
   font-weight: 400;
-  color: #690000;
+  color: rgb(105, 0, 0);
 }
 .navbar .nav ul li .nav-item:hover {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
 }
 .navbar .nav .nav1 {
@@ -66,16 +67,16 @@ body {
 .navbar .nav .nav2 .gopremium {
   padding-top: 5px;
   padding-bottom: 6px;
-  background-color: #ffd596;
-  border: 3px solid #760000;
+  background-color: rgb(255, 213, 150);
+  border: 3px solid rgb(118, 0, 0);
   border-radius: 25px;
-  color: #7d0000;
+  color: rgb(125, 0, 0);
   font-weight: 800;
 }
 .navbar .nav .nav2 .gopremium:hover {
   color: white;
-  background-color: #6a3f00;
-  border: 3px solid white;
+  background-color: rgb(106, 63, 0);
+  border: 3px solid rgb(255, 255, 255);
 }
 
 .main {
@@ -85,18 +86,30 @@ body {
   display: flex;
   padding-top: 25px;
   padding-bottom: 10px;
-  border-bottom: 5px solid black;
-  z-index: -1;
+  border-bottom: 5px solid rgb(0, 0, 0);
 }
 .main .main-image img {
   width: 450px;
   margin-top: 40px;
   margin-right: 10px;
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 30px;
 }
 .main .main-para {
   padding: 20px;
+}
+.main .main-para button {
+  width: 150px;
+  padding: 10px;
+  border: 2px solid rgb(75, 75, 75);
+  border-radius: 6px;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+}
+.main .main-para button:hover {
+  color: white;
+  background-color: rgb(106, 63, 0);
+  border: 3px solid rgb(255, 255, 255);
 }
 
 .features {
@@ -104,7 +117,6 @@ body {
   position: relative;
   margin: auto;
   display: flex;
-  z-index: -1;
   padding: 15px;
 }
 .features .para {
@@ -115,6 +127,19 @@ body {
 }
 .features .para h3 {
   text-align: center;
+}
+.features .para button {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 80px;
+}
+.features .para button:hover {
+  border-color: chocolate;
+  font-weight: 600;
+  color: chocolate;
 }
 
 .footer-info {
@@ -147,10 +172,10 @@ body {
 .footer-content .contact a {
   text-decoration: none;
   font-size: 18px;
-  color: #e4e4e4;
+  color: rgb(228, 228, 228);
 }
 .footer-content .contact a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .footer-content .contact img {
   width: 25px;
@@ -163,10 +188,10 @@ body {
 .footer-end {
   margin: 0;
   padding: 5px;
-  background-color: #4b3423;
+  background-color: rgb(75, 52, 35);
 }
 .footer-end .copyright p {
-  color: #d6a76c;
+  color: rgb(214, 167, 108);
   text-align: center;
 }
 .footer-end .copyright p a {
@@ -175,7 +200,5 @@ body {
   color: beige;
 }
 .footer-end .copyright p a:hover {
-  color: #919191;
-}
-
-/*# sourceMappingURL=style.css.map */
+  color: rgb(145, 145, 145);
+}/*# sourceMappingURL=style.css.map */
