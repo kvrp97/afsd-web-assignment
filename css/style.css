@@ -109,7 +109,7 @@ body {
 .main .main-para button:hover {
   color: white;
   background-color: rgb(106, 63, 0);
-  border: 3px solid rgb(255, 255, 255);
+  border: 2px solid rgb(154, 154, 154);
 }
 
 .features {
